@@ -1,0 +1,82 @@
+@import "base.css";
+/*header*/
+header{
+    width: 100%;
+    height:0.44rem;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    position: relative;
+}
+.jt{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.jt img{
+    display: block;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.11rem;
+}
+header h3{
+    width: 2.32rem;
+    text-align: center;
+    overflow: hidden;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    color: #4C84FC;
+    margin: 0 auto;
+    font-weight: normal;
+}
+/*travels*/
+section{
+    width: 100%;
+    height: auto;
+    background: #f5f4f4;
+    padding-top: 0.05rem;
+}
+a.list{
+    display: block;
+    width: 3rem;
+    height: 1.8rem;
+    margin:0.05rem auto 0;
+    position: relative;
+    border-radius: 0.05rem;
+}
+.list_bg{
+    display: block;
+    width: 100%;
+    border-radius: 0.05rem;
+}
+.list_jb{
+    width: 100%;
+    height: 1rem;
+    background-image: url("../img/images/jianbian.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 0.05rem;
+}
+.list_text{
+    position: absolute;
+    top:0.15rem;
+    left: 0.15rem;
+    width: 2.71rem;
+    height: auto;
+}
+.list_text p{
+    font-size: 0.18rem;
+    color: white;
+    font-weight: normal;
+}
+.list_text h5{
+    font-size: 12px;
+    margin-top: 4px;
+    color: white;
+    font-weight: normal;
+}

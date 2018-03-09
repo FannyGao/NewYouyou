@@ -1,0 +1,109 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 570918 */
+    src: url('https://at.alicdn.com/t/font_570918_wm2m27rupgvw8kt9.eot');
+    src: url('https://at.alicdn.com/t/font_570918_wm2m27rupgvw8kt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_570918_wm2m27rupgvw8kt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_570918_wm2m27rupgvw8kt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_570918_wm2m27rupgvw8kt9.svg#iconfont') format('svg');
+}
+/*header*/
+header{
+    width: 100%;
+    height: 1.25rem;
+    background: #4C84FC;
+}
+input{
+    width: 2.96rem;
+    height: 0.5rem;
+    margin: 0.12rem;
+    outline: none;
+    background: white;
+    border-radius: 0.03rem;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height:0.5rem;
+    display: flex;
+    background: #4C84FC;
+}
+.fixed{
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.nav li{
+    width: 25%;
+    height: 0.51rem;
+    box-sizing: border-box;
+}
+.nav li a{
+    display: block;
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+    color: white;
+    text-align: center;
+}
+.nav li:last-child{
+    border-bottom: 3px solid white;
+}
+/*main*/
+.main{
+    width: 100%;
+    height: auto;
+    padding: 0.12rem;
+    box-sizing: border-box;
+}
+.main ul{
+    width: 100%;
+    border-bottom: 1px solid #f5f4f4;
+}
+.main ul h4{
+    font-size: 0.14rem;
+    color: #BEBEBE;
+    font-weight: normal;
+}
+.main ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.left a{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+}
+.left .user{
+    background: #cdcdcd;
+}
+.right a{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    text-align: center;
+    float: left;
+}
+.left a i,.right a i{
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    color: dimgrey;
+    font-family: iconfont;
+    font-style: normal;
+    text-align: center;
+}
+.left span{
+    padding-left: 0.1rem;
+    font-size: 0.16rem;
+    color: #333333;
+    float: left;
+}
+.right{
+    display: flex;
+}

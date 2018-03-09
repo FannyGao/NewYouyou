@@ -1,0 +1,51 @@
+@import "base.css";
+.bg{
+    width: 100%;
+    height: 5.68rem;
+    background: url("../img/mobile-index-bg.jpg") no-repeat center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.bg>h1{
+     display: block;
+     width: 1.32rem;
+     text-align: center;
+     margin: 0.8rem auto 0;
+     color: #4C84FC;
+     font-size: 0.35rem;
+     font-weight:600;
+     font-family: '幼圆';
+ }
+.bg>h5{
+    display: block;
+    text-align: center;
+    margin: 0.05rem auto 0;
+    color: #4C84FC;
+    font-weight:500;
+    font-family: '幼圆';
+}
+.icon{
+    width: 1.88rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.69rem auto 0;
+}
+.icon_{
+    margin: 0.28rem auto 0;
+}
+.icon a{
+    display: block;
+    width: 0.64rem;
+    height: auto;
+}
+.icon a img{
+    display: block;
+    width: 0.64rem;
+    margin: 0;
+}
+.icon a h5{
+    margin-top: 0.13rem;
+    font-size: 0.12rem;
+    color: #fff;
+    text-align: center;
+}

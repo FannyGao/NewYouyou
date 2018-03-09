@@ -1,0 +1,103 @@
+@import "base.css";
+
+/*header*/
+header{
+    width: 100%;
+    height:0.44rem;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    position: relative;
+}
+.jt{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.jt img{
+    display: block;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.11rem;
+}
+header h3{
+    width: 2.32rem;
+    text-align: center;
+    overflow: hidden;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    color: #4C84FC;
+    margin: 0 auto;
+    font-weight: normal;
+}
+body{
+    background:#f5f4f4;
+}
+/*section*/
+section{
+    margin-top: 0.1rem;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+}
+.IMG{
+    width: 100%;
+    height: 1.92rem;
+    overflow: hidden;
+    position: relative;
+}
+.IMG img{
+    height: 100%;
+}
+.jb{
+    width: 100%;
+    height: 1rem;
+    background: url("../img/images/jianbian.png") repeat-x;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.IMG_text{
+    position: absolute;
+    top: 0.15rem;
+    left: 0.15rem;
+}
+.IMG_text h1{
+    font-size: 0.17rem;
+    color: white;
+    font-weight: normal;
+}
+.IMG_text h5{
+    font-size: 0.13rem;
+    color: white;
+    font-weight: normal;
+}
+.chose{
+    width: 100%;
+    height: 0.65rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+}
+.chose li{
+    width: 33.33333%;
+    height: 100%;
+}
+.chose li>a img{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    margin: 0 auto;
+}
+.chose li>a p{
+    font-size: 0.12rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.3rem;
+}
+section:last-child{
+    margin-bottom: 0.1rem;
+}
